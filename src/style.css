@@ -5,3 +5,71 @@
 body {
     margin:0;
 }
+
+header {
+    background-color:#6532CB;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+    padding:20px;
+}
+
+header a {
+    color:white;
+    text-decoration:none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left:0;
+    display:flex;
+    margin-right:10px;
+}
+
+nav ul li {
+    margin-top:8px;
+    margin-left: 20px;
+    font-size:1.25em;
+    font-weight:bold;
+}
+
+main {
+    padding:20px;
+    width:500px;
+    max-width:100%;
+    margin:40px auto;
+    border:3px solid #6532CB;
+}
+
+.bold {
+    font-weight:700;
+}
+
+main h1 {
+    margin-top:0;
+}
+
+.back {
+    position:relative;
+    bottom:-20px;
+}
+
+.green {
+    color:rgb(27, 197, 27);
+}
+
+.red {
+    color:red;
+}
+
+.tiny {
+    font-size:10px;
+    position:relative;
+    bottom:-10px;
+}
